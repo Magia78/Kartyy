@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="skrypt.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Karty Api</title>
+</head>
+<body>
+    <div id="karta">
+        <p id="p1"></p> 
+        <p id="p2"></p> 
+        <p id="p3"></p> 
+        <img id="obraz" alt="Nieprawidlowy link">
+         
+    </div>
+    <div id="panel">
+        <form>
+            Podaj imię postaci : <input type="text" id="imie"><br><br>
+            Podaj wiek postaci : <input type="number" id="wiek"><br><br>
+            Kolor tła karty: <input type="color" id="kolorT"> <br><br>
+            Kolor czcionki: <input type="color" id="kolorC"><br><br>
+            Wzrost: <input type="text" id="wzrost"><br><br>
+            Wstaw link do obrazka : <input type="text" id="obrazek"><br><br>
+            <input type="submit" value="Zapisz zmiany" id="przycisk" onclick="zmienDane()">
+
+        </form>
+    </div>
+    <div id="licznik">
+      
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+#karta{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(116, 72, 173);
+    margin-left: 42%;
+    border-radius: 5%;
+    border-width: 10px;
+    border-style: solid;
+    border-color:rgba(95, 65, 129, 0.5);
+    padding-left: 20px;
+    font-size: 20px;
+}
+#panel{
+    width: 320px;
+    height: 300px;
+    background-color: rgb(116, 72, 173);
+    margin-left: 42%;
+    margin-top: 10px;
+    border-radius: 5%;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+
+}
+#licznik{
+    width: 340px;
+    height: 80px;
+    background-color: rgb(116, 72, 173);
+    margin-left: 42%;
+    margin-top: 10px;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+#obraz{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 35px;
+}
+P{
+    font-size: larger;
+}
+#imie{
+    background-color:rgb(239, 237, 241); 
+    border-radius: 8%;
+    border: none;
+}
+#wiek{
+    background-color:rgb(239, 237, 241); 
+    border-radius: 8%;
+    border: none;
+}
+#wzrost{
+    background-color:rgb(239, 237, 241); 
+    border-radius: 8%;
+    border: none;
+}
+#obrazek{
+    background-color:rgb(239, 237, 241); 
+    border-radius: 8%;
+    border: none;
+}
+#przycisk{
+    background-color:rgb(239, 237, 241); 
+    border-radius: 8%;
+    border: none;
+}
+#p{
+    background-color:rgb(239, 237, 241); 
+    border-radius: 8%;
+    border: none;
+}
+        
+body{
+    background-color: black;
+}
